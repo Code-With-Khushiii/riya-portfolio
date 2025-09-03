@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import profilePic from './assets/image.jpg';
 import { ChevronDown, Target, TrendingUp, Mail, Phone, Linkedin, FileText, Users, Lightbulb, Rocket, ExternalLink, X, Github } from 'lucide-react';
 
 function App() {
@@ -135,7 +136,7 @@ function App() {
           <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="mb-12">
               <img 
-                src="assets/image.jpg"
+                src={profilePic}
                 alt="Riya Mate"
                 className="w-40 h-40 rounded-full mx-auto mb-8 object-cover border-4 border-brown/30 shadow-lg"
               />
