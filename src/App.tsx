@@ -103,9 +103,9 @@ function App() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/90 backdrop-blur-md border-b border-brown/20">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div className="text-2xl font-display text-black tracking-wide">RIYA MATE</div>
-            <div className="hidden md:flex space-x-8">
+          <div className="flex  justify-end">
+            {/* <div className="text-2xl font-display text-black tracking-wide">RIYA MATE</div> */}
+            <div className="hidden md:flex space-x-8 justify-end">
               {[
                 { id: 'hero', label: 'Home' },
                 { id: 'overview', label: 'Overview' },
@@ -218,9 +218,8 @@ function App() {
               </div>
               <h3 className="text-xl font-display text-black mb-4 tracking-wide">IMPACT</h3>
               <div className="text-brown space-y-2 font-light">
-                <p>50% faster workflows for 3K+ engineers via LLM assistant (NVIDIA).</p>
-                <p>40% lower fine-tuning cost with LoRA/PEFT; 15% faster inference.</p>
-                <p>99.99% uptime across microservices with Docker + K8s (Veritas).</p>        
+                <p>50% faster workflows for 3K+ engineers via LLM assistant (NVIDIA). 40% lower fine-tuning cost with LoRA/PEFT 15% faster inference.
+                99.99% uptime across microservices with Docker + K8s (Veritas).</p>        
               </div>
             </div>
           </div>
